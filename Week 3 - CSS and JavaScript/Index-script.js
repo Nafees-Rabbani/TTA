@@ -111,6 +111,195 @@ document.writeln("Is user valid : "+check);
 result= 10 < 2;
 document.writeln("Is 10 less than 2 ="+result);
 
+/*----------------------------------------------*/
+
+//Check age of driver
+
+var age=17;
+if(age >= 18)
+{
+  document.writeln("Can drive a car");
+}
+else{
+  document.writeln("Cannot drive a car");
+}
+
+//Check username and password and print message for user
+
+var username= "admin";
+var password= "admin123";
+
+if(username=="admin" && password =="admin123")
+{
+  //Correct - Login success code
+  document.writeln("Welcome :"+username);
+}
+else{
+  //Incorrect - Login fail code
+  document.writeln("Oops something went wrong");
+}
+
+/*If else if ladder - Check student score and give grades
+90-100 = A*
+80-90 = A
+70-80 = B
+60-70 = C
+50-60 = D
+<50 = Fail
+*/
+/* input = 34
+if(cond1)
+{
+
+}
+else if(cond2)
+{
+
+}
+else if(cond3)
+{
+
+}
+else if(cond4)
+{
+
+}
+else{
+
+}
+*/
+
+//Switch performs better than if else ladder
+var choice = 6;
+switch(choice)
+{
+ case 1: document.writeln("I am in case 1");
+ break;
+ case 2: document.writeln("I am in case 2");
+ break;
+ case 3: document.writeln("I am in case 3");
+ break;
+default:
+  document.writeln("please give valid choice");
+}
+
+// create calculator -> + - * / % //
+num1= 10;
+num2 = 2;
+document.writeln("1. Addition");
+document.writeln("2. Difference");
+input = 1;
+switch(input)
+{
+  case 1:
+    document.writeln("Addition :"+(num1 + num2));
+    break;
+}
+
+/*Unary operator:
+1. ++ increment by 1
+2. -- decrement by 1
+
+eg. 
+num = 10;
+document.writeln(num++); // 11
+
+*/
+
+// While loop -> true - keep running
+// Print 1-10
+var i = 1;
+while(i<=10)
+{
+   document.writeln(i);//1 2 3 4 5 6 7 8 9 10
+   i = i+2;//When it becomes 11 condition is false and loop will stop
+}
+document.writeln("--------------------------------")
+//Print all even no from 1-10
+//even number = number / 2 and remainder = 0
+
+var input = 1;
+while(input<=10)
+{
+  if(input % 2 == 0)
+  {
+   document.writeln(input);
+  }
+   input++;
+}
+ 
+document.writeln("--------------------------------")
+
+// do while loop
+// print 1-10
+var i = 1;
+do{
+  document.writeln(i);
+  i++;
+}while(i <= 10);
+
+document.writeln("--------------------------------")
+
+// for loop
+/*for(initialisation ; condition; step)
+{
+  //code
+}
+*/
+
+for(var i = 1 ; i<= 10 ; i++)
+{
+  document.writeln(i);
+}
+
+
+document.writeln("--------------------------------")
+
+//Practise Q: print even number from 1-10 using do while and for loop
+
+var i = 1;
+do{
+  document.writeln(i % 2 == 0);
+  i++;
+}while(i <=10);
+
+document.writeln("--------------------------------")
+
+for(var i = 1 ; i<=10 ; i++)
+{
+  document.writeln(i % 2 == 0);
+}
+
+
+//Practise Q: print all numbers between 1-100 which is divisible by 3 and 5
+
+var i = 1
+
+ 
+//Practise Q: print all prime numbers between 1-100
+
+//Practise Q: print multiplication table for any number
+
+/*Practise Q: print following pattern (for loop inside for loop)
+* 
+**
+***
+****
+*****
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
