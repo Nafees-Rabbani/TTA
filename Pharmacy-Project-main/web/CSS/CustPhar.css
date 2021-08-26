@@ -1,0 +1,50 @@
+.homehead{
+    font: myriad pro regular;
+    font-size: 30px;
+    color: #0099ff;
+    text-align: center;
+}
+
+
+.navbar{
+    width: 96.2%;
+    height: 17px;
+    background-color: #0099ff;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.displaytable{
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 250px;
+    height: 40px;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #0099ff;
+}
+
+th{
+    background-color: #0099ff;
+}
+
+.footer{
+position: static;
+bottom: 0px;
+width: 96.2%;
+background-color: #0099ff;
+color: white;
+padding: 10px 20px 20px 20px;
+font-size: 15px;  
+}
+            
+.social{
+float: right;
+margin-right: 20px;
+padding-bottom: 5px;
+font-size: 25px;
+}
+

@@ -1,0 +1,51 @@
+.homehead{
+    font: myriad pro regular;
+    font-size: 30px;
+    color: #0099ff;
+    text-align: center;
+}
+
+
+.navbar{
+    width: 96.2%;
+    background-color: #0099ff;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+.cartButton{
+background-color: #0099ff;
+border-style: none;
+border-radius: 10px;
+width: 190px;
+color: white;
+padding: 10px 25px;
+text-align: center;
+font-size: 16px;
+margin: 2px 1px;
+}
+
+.footer{
+position: static;
+bottom: 0px;
+width: 96.2%;
+background-color: #0099ff;
+color: white;
+padding: 10px 20px 20px 20px;
+font-size: 15px;  
+}
+            
+.social{
+float: right;
+margin-right: 20px;
+padding-bottom: 5px;
+font-size: 25px;
+}
+            
+            
+
+         
+            
+
